@@ -7,7 +7,7 @@ ARG BUILD_ARCH
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
 # Set yarr version
-ARG YARR_VERSION="v2.6"
+ARG YARR_VERSION="v2.7"
 
 # Setup base
 # hadolint ignore=DL3003
